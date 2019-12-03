@@ -1,13 +1,1 @@
-# !/bin/bash
-
-#install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-
-# copy my zsh settings
-cp ./zsh/.zshrc ~/.zshrc
-
-# install zsh theme
-git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
-
-
-# zsh-syntax-highlightinggit clone https://github.com/zsh-users/zsh-syntax-highlighting.git /Users/$USER/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting# zsh-autosuggestionsgit clone git://github.com/zsh-users/zsh-autosuggestions /Users/$USER/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+# !/bin/bash# configure gitgit config --global user.name "LEE SEGUN"git config --global user.email "segunleedev@gmail.com"# install brewif ! which brewthen    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"firead -r -s -p "[sudo] sudo password for $(whoami):" pass# install via brewbrew bundle --file=./Brewfile# install fontcp -a ./fonts/. ~/Library/Fonts# configure zshchmod 755 ./zsh/install.sh./zsh/install.sh# install xcodechmod 755 ./xcode/install.sh./xcode/install.sh# echo "$pass" | sudo -S xattr -dr com.apple.quarantine /Applications/Google\ Chrome.appprintf '\n\n🎉 mac has been set up complete\n'
