@@ -7,6 +7,7 @@ git clone https://github.com/segunlee/macOsPreset.git
 ```
 
 ```
+chmod +x ./install.sh
 ./install.sh
 ```
 
