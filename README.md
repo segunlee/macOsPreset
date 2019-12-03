@@ -1,4 +1,12 @@
 ```
+Prepare 
+1. Login Mac AppStore
+2. xcode-select --install (Optional)
+3. chmod +x ./install.sh
+
+```
+
+```
 git --version
 ```
 
@@ -7,7 +15,6 @@ git clone https://github.com/segunlee/macOsPreset.git
 ```
 
 ```
-chmod +x ./install.sh
 ./install.sh
 ```
 
