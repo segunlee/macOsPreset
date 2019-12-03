@@ -2,7 +2,8 @@
 
 
 # configure git
-git config --global user.name "LEE SEGUN"git config --global user.email "segunleedev@gmail.com"
+git config --global user.name "LEE SEGUN"
+git config --global user.email "segunleedev@gmail.com"
 
 
 # install brew
