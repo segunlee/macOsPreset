@@ -8,3 +8,6 @@ cp ./zsh/.zshrc ~/.zshrc
 
 # install zsh theme
 git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
+
+
+# zsh-syntax-highlightinggit clone https://github.com/zsh-users/zsh-syntax-highlighting.git /Users/$USER/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting# zsh-autosuggestionsgit clone git://github.com/zsh-users/zsh-autosuggestions /Users/$USER/.oh-my-zsh/custom/plugins/zsh-autosuggestions
