@@ -5,6 +5,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # copy my zsh settings
 cp ./zsh/.zshrc ~/.zshrc
+cp ./zsh/.p10k.zsh ~/.p10k.zsh
 
 # install zsh theme
 git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
