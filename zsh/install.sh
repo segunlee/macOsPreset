@@ -5,6 +5,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 
 # install zsh theme (2)
+brew install nodejs
 npm install --global pure-prompt
 
 
