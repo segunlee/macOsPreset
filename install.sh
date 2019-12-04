@@ -12,7 +12,21 @@ then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+
 read -r -s -p "[sudo] sudo password for $(whoami):" pass
+
+
+if [[ $1 = "zsh" ]]; then
+	# install font
+	cp -a ./fonts/. ~/Library/Fonts
+
+	# configure zsh
+	chmod 755 ./zsh/install.sh
+	./zsh/install.sh
+	exit 0
+fi
+
+
 
 # install via brew
 brew bundle --file=./Brewfile
