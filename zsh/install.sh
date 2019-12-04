@@ -14,7 +14,8 @@ cp ./zsh/.zshrc ~/.zshrc
 
 
 # install zsh theme
-npm install --global pure-prompt
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+fpath+=("$HOME/.zsh/pure")
 
 
 # zsh-syntax-highlightinggit 
