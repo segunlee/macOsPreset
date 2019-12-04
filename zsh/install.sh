@@ -4,16 +4,8 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 
-brew install nodejs
-
-
-# install zsh theme (1)
-# git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
-
-
 # install zsh theme (2)
-git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
-fpath+=("$HOME/.zsh/pure")
+npm install --global pure-prompt
 
 
 # zsh-syntax-highlightinggit 

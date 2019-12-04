@@ -3,6 +3,7 @@ brew "mas"
 brew "git-flow"
 brew "python3"
 brew "ruby"
+brew "nodejs"
 
 
 # AppStore
