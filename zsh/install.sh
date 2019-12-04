@@ -19,4 +19,3 @@ git clone git://github.com/zsh-users/zsh-autosuggestions /Users/$USER/.oh-my-zsh
 
 # copy my zsh settings
 cp ./zsh/.zshrc ~/.zshrc
-# cp ./zsh/.p10k.zsh ~/.p10k.zsh
