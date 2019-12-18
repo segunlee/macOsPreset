@@ -27,12 +27,17 @@ if [[ $1 = "zsh" ]]; then
 fi
 
 
-
 # install via brew
 brew bundle --file=./Brewfile
 
+
 # install font
 cp -a ./fonts/. ~/Library/Fonts
+
+
+# install OSX
+chmod 755 ./osx/install.sh
+./osx/install.sh
 
 
 # configure zsh
