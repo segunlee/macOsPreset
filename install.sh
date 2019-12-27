@@ -37,14 +37,14 @@ brew bundle --file=./Brewfile
 cp -a ./fonts/. ~/Library/Fonts
 
 
-# install OSX
-chmod 755 ./osx/install.sh
-./osx/install.sh
-
-
 # configure zsh
 chmod 755 ./zsh/install.sh
 ./zsh/install.sh
+
+
+# install OSX
+chmod 755 ./osx/install.sh
+./osx/install.sh
 
 
 # install xcode
