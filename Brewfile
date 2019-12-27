@@ -2,8 +2,13 @@
 brew "mas"
 brew "git-flow"
 brew "python3"
+brew "fastlane"
+brew "carthage"
+brew "ghostscript"
+brew "imagemagick"
 brew "ruby"
 brew "nodejs"
+brew "swiftlint"
 
 
 # AppStore
