@@ -18,24 +18,33 @@ fi
 read -r -s -p "[sudo] sudo password for $(whoami):" pass
 
 
-# install font
-cp -a ./fonts/. ~/Library/Fonts
+if [[ $1 = "zsh" ]]; then
+	# install font
+	cp -a ./fonts/. ~/Library/Fonts
 
-
-# configure zsh
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
+	# configure zsh
+	chmod 755 ./zsh/install.sh
+	./zsh/install.sh
+	exit 0
+fi
 
 
 # install via brew
 brew bundle --file=./Brewfile
 
 
+# install font
+cp -a ./fonts/. ~/Library/Fonts
 
 
 # install OSX
 chmod 755 ./osx/install.sh
 ./osx/install.sh
+
+
+# configure zsh
+chmod 755 ./zsh/install.sh
+./zsh/install.sh
 
 
 # install xcode
