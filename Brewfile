@@ -21,6 +21,7 @@ mas "ro.nextwave.Snappy", id: 512617038
 
 
 # Cask
+cask "provisionql"
 cask "rar"
 cask "sequel-pro"
 cask "charles"
